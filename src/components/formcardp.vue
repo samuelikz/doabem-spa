@@ -209,11 +209,18 @@
             </q-card-section>
 
             <q-card-section class="q-pt-none">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellendus sit voluptate voluptas eveniet porro. Rerum blanditiis perferendis totam, ea at omnis vel numquam exercitationem aut, natus minima, porro labore.
+              <p class="text-h6">1.1 - Aceitação dos Termos e Políticas</p>
+              A Equipe Áhgil Informa Sobre os Termos e Políticas são aplicáveis ao serviço
+              prestado são de unica e excusivamente utilizade para platraforma e seus usuarios. Além disso, alertamos que, ao utilizar o serviço, o usuário concorda expressamente
+              com os termos dele.
+              <p class="text-h6">1.2 - Definições</p>
+              Consentimento, concordo que as informada e inequívoca pela qual o
+              titular concorda com o tratamento de seus dados pessoais
+              para uma finalidade determinada.
             </q-card-section>
 
             <q-card-actions align="right">
-              <q-btn flat label="OK" color="primary" v-close-popup />
+              <q-btn flat label="Aceitar" color="primary" v-close-popup />
             </q-card-actions>
           </q-card>
         </q-dialog>
@@ -293,12 +300,14 @@ export default {
       if (this.$refs.Password.hasError || this.$refs.Data_Nascimento.hasError || this.$refs.Nome.hasError || this.$refs.Telefone.hasError || this.$refs.Email.hasError || this.$refs.CPF.hasError || this.$refs.RG.hasError || this.$refs.Org_Expedidor.hasError || this.$refs.Estado.hasError || this.$refs.Cidade.hasError || this.$refs.CEP.hasError || this.$refs.Complemento.hasError || this.$refs.Logradouro.hasError || this.$refs.Bairro.hasError || this.$refs.Numero.hasError || this.$refs.Pais.hasError) {
         this.formHasError = true
         this.$q.notify({
-          color: 'warning',
+          icon: 'error_outline',
+          color: 'amber-9',
           message: 'Você precisa prencher todos os campos'
         })
       } else if (this.accept !== true) {
         this.$q.notify({
-          color: 'negative',
+          icon: 'error_outline',
+          color: 'amber-9',
           message: 'Você precisa concordar com os termos primeiro'
         })
       } else {
