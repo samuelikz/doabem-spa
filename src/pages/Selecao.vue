@@ -39,13 +39,14 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .text-sel {
   color: $azulescuro;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 29px;
 }
 
