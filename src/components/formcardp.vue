@@ -23,6 +23,23 @@
           :rules="[val => !!val || 'E-mail Invalido Ex:user@gmail.com', isValidEmail]"
         />
 
+      <q-input
+        ref="Password"
+        v-model="Password"
+        :type="isPwd ? 'password'
+        : 'text'" hint="Definir senha de acesso"
+        label="Senha"
+        :rules="[ val => val && val.length > 5 ||'Campo Obrigatório Senha deve conter 6 numeros*']"
+      >
+        <template v-slot:append>
+          <q-icon
+            :name="isPwd ? 'visibility_off' : 'visibility'"
+            class="cursor-pointer"
+            @click="isPwd = !isPwd"
+          />
+        </template>
+      </q-input>
+
         <q-input
           ref="Telefone"
           mask="(##) ##### - ####"
@@ -218,6 +235,7 @@ export default {
       Nome: null,
       Telefone: null,
       Email: null,
+      Password: null,
       Sexo: null,
       CPF: null,
       RG: null,
@@ -232,6 +250,7 @@ export default {
       Numero: null,
       Pais: null,
       alert: false,
+      isPwd: true,
 
       accept: false,
       O_options: [
@@ -269,8 +288,9 @@ export default {
       this.$refs.Bairro.validate()
       this.$refs.Numero.validate()
       this.$refs.Pais.validate()
+      this.$refs.Password.validate()
 
-      if (this.$refs.Data_Nascimento.hasError || this.$refs.Nome.hasError || this.$refs.Telefone.hasError || this.$refs.Email.hasError || this.$refs.CPF.hasError || this.$refs.RG.hasError || this.$refs.Org_Expedidor.hasError || this.$refs.Estado.hasError || this.$refs.Cidade.hasError || this.$refs.CEP.hasError || this.$refs.Complemento.hasError || this.$refs.Logradouro.hasError || this.$refs.Bairro.hasError || this.$refs.Numero.hasError || this.$refs.Pais.hasError) {
+      if (this.$refs.Password.hasError || this.$refs.Data_Nascimento.hasError || this.$refs.Nome.hasError || this.$refs.Telefone.hasError || this.$refs.Email.hasError || this.$refs.CPF.hasError || this.$refs.RG.hasError || this.$refs.Org_Expedidor.hasError || this.$refs.Estado.hasError || this.$refs.Cidade.hasError || this.$refs.CEP.hasError || this.$refs.Complemento.hasError || this.$refs.Logradouro.hasError || this.$refs.Bairro.hasError || this.$refs.Numero.hasError || this.$refs.Pais.hasError) {
         this.formHasError = true
         this.$q.notify({
           color: 'warning',
@@ -311,6 +331,7 @@ export default {
       this.Bairro = null
       this.Numero = null
       this.Pais = null
+      this.Password = null
 
       this.$refs.Nome.resetValidation()
       this.$refs.Telefone.resetValidation()
@@ -327,6 +348,7 @@ export default {
       this.$refs.Numero.resetValidation()
       this.$refs.Pais.resetValidation()
       this.$refs.Data_Nascimento.resetValidation()
+      this.$refs.Password.resetValidation()
     }
   }
 }
