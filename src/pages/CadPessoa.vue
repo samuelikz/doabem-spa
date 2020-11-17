@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <div class="t-cadastro text-center text-h3">
-      <p>Cadastro Pessoa Fisica</p>
+      <p>Cadastro Pessoa Física</p>
     </div>
     <formcardp />
   </q-page>

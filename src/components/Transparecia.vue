@@ -23,7 +23,7 @@
         <div class="text-descricao">
           <div class="text-body2">0</div>
           <q-separator />
-          <div class="text-body2">Doacões <br> Recebidas</div>
+          <div class="text-body2">Doações <br> Recebidas</div>
         </div>
       </div>
 

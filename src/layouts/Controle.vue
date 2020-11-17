@@ -17,21 +17,21 @@
           <q-item clickable v-close-popup>
             <q-item-section>
               <q-item-label>
-                <q-breadcrumbs-el to="cadpessoa" label="Pessoal Fisica"/>
+                <q-breadcrumbs-el to="cadpessoa" label="Pessoal Física"/>
               </q-item-label>
             </q-item-section>
           </q-item>
           <q-item clickable v-close-popup>
             <q-item-section>
               <q-item-label>
-                <q-breadcrumbs-el to="#" label="Pessoal Juridica"/>
+                <q-breadcrumbs-el to="cadpessoajuridica" label="Pessoal Jurídica"/>
               </q-item-label>
             </q-item-section>
           </q-item>
           <q-item clickable v-close-popup>
             <q-item-section>
               <q-item-label>
-                <q-breadcrumbs-el to="#" label="Beneficiarios"/>
+                <q-breadcrumbs-el to="cadbeneficiario" label="Beneficiários"/>
               </q-item-label>
             </q-item-section>
           </q-item>
