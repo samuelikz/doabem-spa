@@ -57,7 +57,7 @@ export default {
 
 .tr-container{
   background: white;
-  padding: 30px;
+  padding: 5px;
 }
 
 .txt-tr{
