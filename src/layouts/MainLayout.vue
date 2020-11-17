@@ -11,7 +11,7 @@
         <div class="menu">
           <q-btn stretch flat label="Casos" to="casos" />
           <q-btn stretch flat label="Mapa" />
-          <q-btn stretch flat label="Login" to="login" />
+          <q-btn stretch flat label="Login" to="/controle/login" />
 
           <q-btn-dropdown stretch flat label="Cadastro">
             <q-list>
@@ -43,30 +43,37 @@
         </div>
           <q-btn outline round class="m-hamburgue" icon="menu" flat>
             <q-menu>
-              <q-list style="width: 100px">
+              <q-list style="width: 150px">
                 <q-item clickable v-close-popup>
-                  <q-item-section>Casos</q-item-section>
+                  <q-item-section>
+                    <q-breadcrumbs-el label="Casos" to="casos"/>
+                  </q-item-section>
                 </q-item>
                 <q-item clickable v-close-popup>
-                  <q-item-section>Mapa</q-item-section>
-                </q-item>
-                <q-separator />
-                <q-item clickable v-close-popup>
-                  <q-item-section>Cadastrar</q-item-section>
-                </q-item>
-                <q-item clickable v-close-popup>
-                  <q-item-section>Login</q-item-section>
-                </q-item>
-                <q-item clickable v-close-popup>
-                  <q-item-section>Pesquisar</q-item-section>
+                  <q-item-section>
+                    <q-breadcrumbs-el label="Mapa" to="#"/>
+                  </q-item-section>
                 </q-item>
                 <q-separator />
                 <q-item clickable v-close-popup>
-                  <q-item-section>Mapa</q-item-section>
+                  <q-breadcrumbs-el label="Cadastrar" to="#"/>
+                </q-item>
+                <q-item clickable v-close-popup>
+                  <q-item-section>
+                    <q-breadcrumbs-el label="Login" to="/controle/login"/>
+                  </q-item-section>
+                </q-item>
+                <q-item clickable v-close-popup>
+                  <q-item-section>
+                    <q-breadcrumbs-el label="Pesquisar" to="#"/>
+                  </q-item-section>
                 </q-item>
                 <q-separator />
+                <q-separator />
                 <q-item clickable v-close-popup>
-                  <q-item-section>Sobre</q-item-section>
+                  <q-item-section>
+                    <q-breadcrumbs-el label="Sobre" to="sobre"/>
+                  </q-item-section>
                 </q-item>
               </q-list>
             </q-menu>
@@ -105,7 +112,7 @@ export default {
   background: $cinza;
 }
 
-@media only screen and (max-width: 645px) {
+@media only screen and (max-width: 660px) {
 .menu{
   display:none;
 }
