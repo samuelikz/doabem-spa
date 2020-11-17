@@ -8,6 +8,7 @@
           </q-avatar>
         </q-btn>
         <q-space />
+
         <div class="menu">
           <q-btn stretch flat label="Casos" to="casos" />
           <q-btn stretch flat label="Mapa" />
@@ -25,6 +26,7 @@
                     <q-breadcrumbs-el to="#" label="Pessoal Juridica" />
                 </q-item-section>
               </q-item>
+                <q-separator />
               <q-item clickable v-close-popup>
                 <q-item-section>
                     <q-breadcrumbs-el to="#" label="Beneficiarios" />
@@ -32,6 +34,7 @@
               </q-item>
             </q-list>
           </q-btn-dropdown>
+
           <q-btn stretch flat label="Pesquisar Casos" icon="search"> </q-btn>
           <q-list></q-list>
         </div>

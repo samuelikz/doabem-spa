@@ -6,22 +6,25 @@
       style="height: 400px; max-width: 100%"
     >
 
-    <div class="descrincao-banner content-center">
-      <div class="avatar flex flex-center">
-          <img src="../assets/avatar.svg">
+      <div class="descrincao-banner content-center">
+        <div class="avatar flex flex-center">
+            <img src="../assets/avatar.svg">
+        </div>
+
+        <div class="text-banner text-center">
+          <p>O Maior Site de Doações do Brasil</p>
+        </div>
+
+        <div class="bt-wh flex flex-center">
+          <q-btn unelevated>
+              <img src="../assets/googleplay.svg">
+          </q-btn>
+          <q-btn unelevated>
+              <img src="../assets/appstore.svg">
+          </q-btn>
+        </div>
+
       </div>
-      <div class="text-banner text-center">
-        <p>O Maior Site de Doações do Brasil</p>
-      </div>
-      <div class="bt-wh flex flex-center">
-        <q-btn unelevated>
-            <img src="../assets/googleplay.svg">
-        </q-btn>
-        <q-btn unelevated>
-            <img src="../assets/appstore.svg">
-        </q-btn>
-      </div>
-    </div>
 
     </q-parallax>
 

@@ -1,13 +1,13 @@
 <template>
-  <div>
+  <div class="s-2">
 
-    <div class="descricao-history flex flex-center">
-      <div class="text-history  fit column items-start content-start">
+    <div class="descricao-history">
+      <div class="text-history">
         <p>História</p>
       </div>
     </div>
 
-    <div class="text-descricao flex flex-center">
+    <div class="text-descricao">
       <p>{{ lorem }}</p>
     </div>
 
@@ -35,18 +35,31 @@ export default {
   font-weight: bold;
   font-size: 36px;
   line-height: 29px;
-  padding-left: 16.5%;
-  padding-bottom: 24px;
-  margin-block-start: 1em;
-  }
+}
 
 .text-descricao p {
   font-family: Lato;
   font-size: 17px;
   font-style: normal;
   text-align: justify;
-  width: 900px;
-  display: block;
-  margin-block-end: 6em;
+}
+
+.s-2{
+  margin: auto;
+  width: 70vw;
+  padding: 30px;
+}
+
+.s-2 p {
+  padding-bottom: 40px;
+  margin: 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .s-2{
+    margin: auto;
+    width: 90vw;
+    padding: 30px;
   }
+}
 </style>

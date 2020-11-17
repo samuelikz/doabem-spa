@@ -1,13 +1,13 @@
 <template>
-  <div>
+  <div class="s-2">
 
-    <div class="descricao-sobre flex flex-center">
-      <div class="text-sobre fit column items-start content-start">
+    <div class="descricao-sobre">
+      <div class="text-sobre">
         <p>Quem somos</p>
       </div>
     </div>
 
-    <div class="text-descricao-sobre flex flex-center">
+    <div class="text-descricao-sobre">
       <p>{{ lorem }}</p>
     </div>
 
@@ -25,13 +25,6 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-
-.descricao-sobre
-  flex-direction: column
-
-</style>
-
 <style lang="stylus" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
@@ -42,9 +35,6 @@ export default {
   font-weight: bold;
   font-size: 36px;
   line-height: 29px;
-  padding-left: 16.5%;
-  padding-bottom: 24px;
-  margin-block-start: 1em;
   }
 
 .text-descricao-sobre p {
@@ -52,7 +42,25 @@ export default {
   font-size: 17px;
   font-style: normal;
   text-align: justify;
-  width: 900px;
   }
+
+.s-2{
+  margin: auto;
+  width: 70vw;
+  padding: 30px;
+}
+
+.s-2 p {
+  padding-bottom: 40px;
+  margin: 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .s-2{
+    margin: auto;
+    width: 90vw;
+    padding: 30px;
+  }
+}
 
 </style>
