@@ -7,28 +7,34 @@
     <div class="flex flex-center items-baseline">
       <div class="s1 text-center">
         <div class="icone">
-          <img src= "../assets/network1.svg">
+          <img src= "../assets/PAjudadas.svg">
         </div>
         <div class="text-descricao">
-          <p>Conectar doações a quem necessita.</p>
+          <div class="text-body2">0</div>
+          <q-separator />
+          <div class="text-body2">Pessoas <br> Ajudadas</div>
         </div>
       </div>
 
       <div class="s1 text-center">
         <div class="icone">
-          <img src= "../assets/network1.svg">
+          <img src= "../assets/DRecebidas.svg">
         </div>
         <div class="text-descricao">
-          <p>Conectar doações a quem necessita.</p>
+          <div class="text-body2">0</div>
+          <q-separator />
+          <div class="text-body2">Doacões <br> Recebidas</div>
         </div>
       </div>
 
       <div class="s1 text-center">
         <div class="icone">
-          <img src= "../assets/network1.svg">
+          <img src= "../assets/DCadastrados.svg">
         </div>
         <div class="text-descricao">
-          <p>Empresas parceiras contribuem para uma sociedade mais justa.</p>
+          <div class="text-body2">0</div>
+          <q-separator />
+          <div class="text-body2">Doadores <br> Cadastrados</div>
         </div>
       </div>
     </div>
@@ -62,7 +68,7 @@ export default {
   line-height: auto;
 }
 
-.text-descricao p{
+.text-descricao .text-body2{
   padding-top: 10px;
   color: #14213D;
   font-family: Roboto;
@@ -76,6 +82,13 @@ export default {
   width: 380px;
   height: auto;
   padding: 1rem;
+}
+
+.q-separator--horizontal {
+    background-color: #5cc6d0;
+    display: inline-grid;
+    height: 3px;
+    width: 30%;
 }
 
 </style>
