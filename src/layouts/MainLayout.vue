@@ -17,23 +17,17 @@
             <q-list>
               <q-item clickable v-close-popup>
                 <q-item-section>
-                  <q-item-label>
                     <q-breadcrumbs-el to="cadpessoa" label="Pessoal Fisica" />
-                  </q-item-label>
                 </q-item-section>
               </q-item>
               <q-item clickable v-close-popup>
                 <q-item-section>
-                  <q-item-label>
                     <q-breadcrumbs-el to="#" label="Pessoal Juridica" />
-                  </q-item-label>
                 </q-item-section>
               </q-item>
               <q-item clickable v-close-popup>
                 <q-item-section>
-                  <q-item-label>
                     <q-breadcrumbs-el to="#" label="Beneficiarios" />
-                  </q-item-label>
                 </q-item-section>
               </q-item>
             </q-list>

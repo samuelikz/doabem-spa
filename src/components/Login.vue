@@ -32,7 +32,7 @@
             />
 
             <div class="flex flex-center">
-              <q-btn label="Cadastrar" to="cadpessoa" color="primary" flat class="q-ml-sm" />
+              <q-btn label="Cadastrar" to="/controle/selecao" color="primary" flat class="q-ml-sm" />
               <q-btn label="Entrar" type="submit" color="primary"/>
             </div>
           </q-form>
