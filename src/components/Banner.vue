@@ -47,7 +47,6 @@ export default {
   height: auto
 
 .bt-wh
-  padding-top: 40px
 
 </style>
 
@@ -55,6 +54,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .text-banner p{
+  padding-top: 50px;
   color: white;
   font-family: Montserrat;
   font-style: normal;
