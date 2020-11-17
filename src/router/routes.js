@@ -6,7 +6,9 @@ const routes = [
       { path: '', component: () => import('pages/Index.vue') },
       { path: 'casos', component: () => import('pages/Casos.vue') },
       { path: 'sobre', component: () => import('pages/Sobre.vue') },
-      { path: 'cadpessoa', component: () => import('pages/CadPessoa.vue') }
+      { path: 'cadpessoa', component: () => import('pages/CadPessoa.vue') },
+      { path: 'cadpessoajuridica', component: () => import('pages/CadPesJur.vue') },
+      { path: 'cadbeneficiario', component: () => import('pages/CadBeneficiario') }
     ]
   },
   {

@@ -9,19 +9,19 @@
           <q-list>
             <q-item clickable v-close-popup>
               <q-item-section class="text-center">
-                  <q-breadcrumbs-el label="Pessoa Fisica" to="/cadpessoa"/>
+                  <q-breadcrumbs-el label="Pessoa Física" to="/cadpessoa"/>
               </q-item-section>
             </q-item>
 
             <q-item clickable v-close-popup>
               <q-item-section class="text-center">
-                  <q-breadcrumbs-el label="Pessoa Juridica" to="/"/>
+                  <q-breadcrumbs-el label="Pessoa Jurídica" to="/cadpessoajuridica"/>
               </q-item-section>
             </q-item>
               <q-separator />
             <q-item clickable v-close-popup>
               <q-item-section class="text-center">
-                  <q-breadcrumbs-el label="Beneficiario" to="/"/>
+                  <q-breadcrumbs-el label="Beneficiário" to="/cadbeneficiario"/>
               </q-item-section>
             </q-item>
           </q-list>

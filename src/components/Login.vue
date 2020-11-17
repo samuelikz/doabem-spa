@@ -2,7 +2,7 @@
   <div class="q-pa-md row items-start q-gutter-md">
     <q-card class="my-card">
       <q-card-section class="bg-card text-white">
-        <div class="text-h6">Informe seu Usuario de Acesso</div>
+        <div class="text-h6">Informe seu Usuário de Acesso</div>
         <div class="text-subtitle2">Login</div>
       </q-card-section>
 
@@ -15,10 +15,10 @@
             <q-input
               filled
               v-model="name"
-              label="Nome de Usuario"
-              hint="Informe seu usuario"
+              label="Nome de Usuário"
+              hint="Informe seu usuário"
               lazy-rules
-              :rules="[ val => val && val.length > 0 || 'Usuario não Inserido']"
+              :rules="[ val => val && val.length > 0 || 'Usuário não Inserido']"
             />
 
             <q-input

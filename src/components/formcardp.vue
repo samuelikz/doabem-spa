@@ -8,7 +8,7 @@
         <q-input
           ref="Nome"
           v-model="Nome"
-          label="Nome Sobrenome"
+          label="Nome e Sobrenome"
           hint="Nome e sobrenome *"
           lazy-rules
           :rules="[ val => val && val.length > 0 || 'Campo Obrigatório']"
@@ -107,8 +107,8 @@
           ref="Org_Expedidor"
           v-model="Org_Expedidor"
           :options="O_options"
-          hint="Orgão Expedidor"
-          label="Orgão Expedidor"
+          hint="Órgão Expedidor"
+          label="Órgão Expedidor"
           lazy-rules
           :rules="[ val => val && val.length > 0 || 'Campo Obrigatório']"
         />
@@ -148,8 +148,8 @@
         <q-input
           ref="Logradouro"
           v-model="Logradouro"
-          label="Lagadouro"
-          hint="Lagadouro *"
+          label="Logradouro"
+          hint="Logradouro *"
           lazy-rules
           :rules="[ val => val && val.length > 0 || 'Campo Obrigatório']"
         />
@@ -166,8 +166,8 @@
         <q-input
           ref="Numero"
           v-model="Numero"
-          label="Numero"
-          hint="Numero *"
+          label="Número"
+          hint="Número *"
           type="number"
           lazy-rules
           :rules="[ val => val && val.length > 0 || 'Campo Obrigatório']"
@@ -187,34 +187,34 @@
           ref="Pais"
           v-model="Pais"
           :options="options"
-          label="Selecionar Pais"
-          hint="Pais *"
+          label="Selecionar País"
+          hint="País *"
           lazy-rules
           :rules="[ val => val && val.length > 0 || 'Campo Obrigatório']"
           />
 
         <q-list class="termos_uso">
           <q-item class="flex flex-center">
-            <q-breadcrumbs-el class="cursor-pointer"  @click="alert = true" label="Leia os termos de uso" />
+            <q-breadcrumbs-el class="cursor-pointer"  @click="alert = true" label="Leia os Termos de Uso" />
           </q-item>
           <q-item>
-            <q-toggle v-model="accept" label="Eu li e concordo com os termos de uso" />
+            <q-toggle v-model="accept" label="Eu li e concordo com os Termos de Uso" />
           </q-item>
         </q-list>
 
         <q-dialog v-model="alert">
           <q-card>
             <q-card-section>
-              <div class="text-h6">Termos de Usos</div>
+              <div class="text-h6">Termos de Uso</div>
             </q-card-section>
 
             <q-card-section class="q-pt-none">
               <p class="text-h6">1.1 - Aceitação dos Termos e Políticas</p>
-              A Equipe Áhgil Informa Sobre os Termos e Políticas são aplicáveis ao serviço
-              prestado são de unica e excusivamente utilizade para platraforma e seus usuarios. Além disso, alertamos que, ao utilizar o serviço, o usuário concorda expressamente
+              A Equipe Áhgil informa sobre que os Termos e Políticas aplicáveis ao serviço
+              prestado são de única e exclusivamente utilizada para a plataforma e seus usuários. Além disso, alertamos que, ao utilizar o serviço, o usuário concorda expressamente
               com os termos dele.
               <p class="text-h6">1.2 - Definições</p>
-              Consentimento, concordo que as informada e inequívoca pela qual o
+              Consentimento, concordo que as informadas e inequívoca pela qual o
               titular concorda com o tratamento de seus dados pessoais
               para uma finalidade determinada.
             </q-card-section>
