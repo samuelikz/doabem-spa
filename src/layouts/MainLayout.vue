@@ -41,13 +41,7 @@
       </q-btn-dropdown>
       <q-btn stretch flat label="Pesquisar Casos" icon="search">
       </q-btn>
-        <q-list>
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
+        <q-list></q-list>
       </q-toolbar>
     </q-header>
 
@@ -63,25 +57,13 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink.vue'
 import Footer from 'components/Footer.vue'
 
-const linksData = [
-  {
-    // title: 'Casos',
-    // caption: 'Listas de casos',
-    // icon: 'assignment_ind',
-    // link: '/casos'
-  }
-]
 export default {
   name: 'MainLayout',
-  components: { EssentialLink, Footer },
+  components: { Footer },
   data () {
-    return {
-      leftDrawerOpen: false,
-      essentialLinks: linksData
-    }
+    return {}
   }
 }
 </script>
