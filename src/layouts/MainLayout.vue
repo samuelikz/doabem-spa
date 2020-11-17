@@ -53,7 +53,7 @@
                 </q-item>
                 <q-separator />
                 <q-item clickable v-close-popup>
-                  <q-breadcrumbs-el label="Cadastrar" to="#"/>
+                  <q-breadcrumbs-el label="Cadastrar" to="/controle/Selecao"/>
                 </q-item>
                 <q-item clickable v-close-popup>
                   <q-item-section>

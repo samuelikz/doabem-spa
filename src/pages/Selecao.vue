@@ -1,14 +1,10 @@
 <template>
   <q-page padding class="flex flex-center">
-  <div class="q-pa-md row items-start q-gutter-md">
-    <q-card class="my-card">
-      <q-card-section>
-        <div class="text-h5">Selecionar tipo de cadastro</div>
-      </q-card-section>
 
-      <q-separator />
+    <div class="q-pa-md items-start q-gutter-md">
 
-      <q-card-actions class="justify-center">
+      <div class="text-sel text-h6 text-center">Cadastro</div>
+      <div>
         <q-btn-dropdown color="primary" label="Selecionar Cadastro">
           <q-list>
             <q-item clickable v-close-popup>
@@ -30,10 +26,9 @@
             </q-item>
           </q-list>
         </q-btn-dropdown>
+      </div>
+    </div>
 
-      </q-card-actions>
-    </q-card>
-  </div>
   </q-page>
 </template>
 
@@ -42,3 +37,16 @@ export default {
   name: 'Selecao'
 }
 </script>
+
+<style lang="stylus" scoped>
+
+.text-sel {
+  color: $azulescuro;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 29px;
+}
+
+</style>
