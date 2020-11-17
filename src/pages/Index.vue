@@ -8,49 +8,15 @@
       <div class="carrossel"> <!-- Div para Carrossel -->
       </div>
 
-      <div class="conteudo flex flex-center"> <!-- Div para conteudo -->
+      <div class="conteudo"> <!-- Div para conteudo -->
 
         <div class="como-funciona">  <!-- Div para Como Funciona -->
           <ComoFunciona />
         </div>
 
-        <!-- Cards transparência -->
-        <div padding class="q-pa-md row flex-center q-gutter-md">
-          <q-card class="my-card">
-            <img src="../assets/network1.svg">
-            <q-card-section>
-              <div class="text-h6">Conectar doações a quem necessita.</div>
-            </q-card-section>
-          </q-card>
-
-          <q-card class="my-card">
-            <img src="https://cdn.quasar.dev/img/mountains.jpg">
-            <q-card-section>
-              <div class="text-h6">Our Changing Planet</div>
-              <div class="text-subtitle2">by John Doe</div>
-            </q-card-section>
-            <q-card-section class="q-pt-none">
-              {{ lorem }}
-            </q-card-section>
-          </q-card>
-
-          <q-card class="my-card">
-            <img src="https://cdn.quasar.dev/img/mountains.jpg">
-            <q-card-section>
-              <div class="text-h6">Our Changing Planet</div>
-              <div class="text-subtitle2">by John Doe</div>
-            </q-card-section>
-            <q-card-section class="q-pt-none">
-              {{ lorem }}
-            </q-card-section>
-          </q-card>
-
+        <div class="i-tr">  <!-- Div para Transparencia -->
+          <Transparecia />
         </div>
-        <!-- Fim cards transparência -->
-      </div>
-
-      <div class="i-tr">  <!-- Div para Como Funciona -->
-        <Transparecia />
       </div>
     </div>
   </q-page>

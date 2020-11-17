@@ -1,11 +1,11 @@
 <template>
   <div class="como-funciona q-pa-md">
 
-    <div class="text-funciona flex flex-center">
+    <div class="text-funciona text-center flex flex-center">
       <p>Como Funciona</p>
     </div>
-    <div class="row q-pa-sm">
-      <div class="col flex flex-center q-gutter-xs q-col-gutter">
+    <div class="flex flex-center items-baseline">
+      <div class="s1 text-center">
         <div class="icone">
           <img src= "../assets/network1.svg">
         </div>
@@ -13,7 +13,7 @@
           <p>Conectar doações a quem necessita.</p>
         </div>
       </div>
-      <div class="col flex flex-center q-gutter-xs q-col-gutter">
+      <div class="s1 text-center">
         <div class="icone">
           <img src="../assets/network2.svg">
         </div>
@@ -21,7 +21,7 @@
           <p>Ofereça serviços, bens materiais ou financeiros.</p>
         </div>
       </div>
-      <div class="col flex flex-center q-gutter-xs q-col-gutter">
+      <div class="s1 text-center">
         <div class="icone">
           <img src="../assets/network3.svg">
         </div>
@@ -56,6 +56,7 @@ export default {
 }
 
 .text-descricao p {
+  padding-top: 10px;
   color: #14213D;
   font-family: Roboto;
   font-weight: bold;
@@ -67,4 +68,11 @@ export default {
 .como-funciona {
   background-color: $cinza;
   }
+
+.s1{
+  width: 380px;
+  height: auto;
+  padding: 1rem;
+}
+
 </style>
