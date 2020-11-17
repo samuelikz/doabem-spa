@@ -4,7 +4,7 @@
 
   <div class="container_footer flex flex-center">
 
-    <q-item class="row_footer">
+    <q-item class="justify-evenly">
       <q-item>
         <q-list>
           <li><p>Transparência</p></li>
