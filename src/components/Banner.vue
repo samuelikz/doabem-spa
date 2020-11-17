@@ -1,19 +1,19 @@
 <template>
-  <div>
+  <div class="items-baseline">
 
     <q-parallax
       src="../assets/banner.svg"
       style="height: 400px; max-width: 100%"
     >
 
-    <div class="descrincao-banner flex flex-center">
+    <div class="descrincao-banner content-center">
       <div class="avatar flex flex-center">
           <img src="../assets/avatar.svg">
       </div>
-      <div class="text-banner">
+      <div class="text-banner text-center">
         <p>O Maior Site de Doações do Brasil</p>
       </div>
-      <div class="button-banner text-center absolute-bottom">
+      <div class="bt-wh flex flex-center">
         <q-btn unelevated>
             <img src="../assets/googleplay.svg">
         </q-btn>
@@ -43,15 +43,11 @@ export default {
   flex-direction: column
 
 .avatar img
-  width: 196px
-  height: 196px
+  width: 35%
+  height: auto
 
-.button-banner img
-  width: 241px
-  height: 72px
-
-.button-banner
-  padding: 7px
+.bt-wh
+  padding-top: 40px
 
 </style>
 
@@ -67,10 +63,8 @@ export default {
   line-height: 29px;
 }
 
-.absolute-bottom {
-    right: 0;
-    bottom: 0px;
-    left: 0;
+.descrincao-banner p {
+    margin: 0 0 0;
 }
 
 .q-btn__wrapper {
