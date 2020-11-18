@@ -1,33 +1,38 @@
 <template>
-  <q-page padding class="flex flex-center">
+  <q-page padding class="flex column flex-center">
 
-    <div class="q-pa-md items-start q-gutter-md">
-
-      <div class="text-sel text-h6 text-center">Cadastro</div>
-      <div>
-        <q-btn-dropdown color="primary" label="Selecionar Cadastro">
-          <q-list>
-            <q-item clickable v-close-popup>
-              <q-item-section class="text-center">
-                  <q-breadcrumbs-el label="Pessoa Física" to="/cadpessoa"/>
-              </q-item-section>
-            </q-item>
-
-            <q-item clickable v-close-popup>
-              <q-item-section class="text-center">
-                  <q-breadcrumbs-el label="Pessoa Jurídica" to="/cadpessoajuridica"/>
-              </q-item-section>
-            </q-item>
-              <q-separator />
-            <q-item clickable v-close-popup>
-              <q-item-section class="text-center">
-                  <q-breadcrumbs-el label="Beneficiário" to="/cadbeneficiario"/>
-              </q-item-section>
-            </q-item>
-          </q-list>
-        </q-btn-dropdown>
+  <div class="flex flex-center text-center ">
+    <div class="sr">
+      <q-btn
+        size="35px"
+        round
+        color="green-5"
+        icon="perm_identity"
+        to="/cadpessoa"
+      />
+      <p class="text-sel">Pessoa Física</p>
       </div>
+      <div class="sr">
+      <q-btn
+        size="35px"
+        round
+        color="light-blue-4"
+        icon="corporate_fare"
+        to="/cadpessoajuridica"
+      />
+      <p class="text-sel">Pessoa Jurídica</p>
+      </div>
+      <div class="sr">
+      <q-btn
+        size="35px"
+        round
+        color="amber-5"
+        icon="emoji_people"
+        to="/cadbeneficiario"
+      />
+      <p class="text-sel">Beneficiário</p>
     </div>
+  </div>
 
   </q-page>
 </template>
@@ -46,8 +51,12 @@ export default {
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 15px;
   line-height: 29px;
+}
+
+.sr{
+  padding: 20px;
 }
 
 </style>
