@@ -9,7 +9,7 @@
     </div>
 
     <div class="Texto-Conteudo">
-      <p>Informações a seu respeito quando você acessa ou utiliza um site ou aplicativo não vale para áreas em que você fez login):<br>
+      <p>Informações a seu respeito quando você acessa ou utiliza um site ou aplicativo (não vale para áreas em que você fez login):<br>
         <p>Informações que você fornece voluntariamente;<br>
         Dados fornecidos de forma automática quando você utiliza nossos serviços;<br>
         As recebidas de terceiros.<br><br>
@@ -17,11 +17,11 @@
     </div>
 
     <div class="Texto-Principal">
-      <p>1.2 Informações que você fornece voluntariamente</p>
+      <p>1.1. Informações que você fornece voluntariamente</p>
     </div>
 
     <div class="Texto-Conteudo">
-      <p>São aquelas informações, em geral pessoais, fornecidas por cadastros ou formulários. Por exemplo: quando você navega em nosso site, realiza alguma Solicitação ou ainda interage com o Site pelo nosso aplicativo, é provável que você nos forneça conscientemente dados como: <br><br>
+      <p>São aquelas informações, em geral pessoais, fornecidas por cadastros ou formulários. Por exemplo: quando você navega em nosso site, realiza alguma solicitação ou ainda interage com o site pelo nosso aplicativo, é provável que você nos forneça conscientemente dados como: <br><br>
       Nome; <br>
       Endereço de e-mail;<br>
       Telefone;<br>
@@ -34,11 +34,11 @@
     </div>
 
     <div class="Texto-Principal">
-      <p>1.3 Dados fornecidos de forma automática quando você utiliza nossos serviços</p>
+      <p>1.2. Dados fornecidos de forma automática quando você utiliza nossos serviços</p>
     </div>
 
     <div class="Texto-Conteudo">
-      <p>Quando você entra no site ou aplicativo não coletamos dados exceto quando você realiza ou solicita uma doação no site e/ou aplicativo, São dados já fornecido por você e está em nossa base de dados
+      <p>Quando você entra no site ou aplicativo não coletamos dados, exceto quando você realiza ou solicita uma doação no site e/ou aplicativo. São dados já fornecido por você e que estão em nossa base de dados,
       não coletamos nem identificamos individualmente essas informações para fins de análise. Também não colhemos dados após você fazer login ou interagir com sua conta dentro da plataforma.
       </p>
     </div>
@@ -48,16 +48,16 @@
     </div>
 
     <div class="Texto-Conteudo">
-      <p>As informações que são coletadas com um objetivo muito simples: facilitar  a utilização de nosso serviço no site e aplicativo, Ou seja, reunimos e coletamos estes dados para oferecer uma experiência cada vez melhor e mais segura na sua interação com nossas plataformas. Abaixo listamos de forma específica como e para que podemos utilizar seus dados:<br><br>
+      <p>As informações que são coletadas possuem um objetivo muito simples: facilitar a utilização de nosso serviço no site e aplicativo, ou seja, reunimos e coletamos estes dados para oferecer uma experiência cada vez melhor e mais segura na sua interação com nossas plataformas. Abaixo listamos de forma específica como e para que podemos utilizar seus dados:<br><br>
 
         Monitorar e analisar as tendências e o uso do site e do aplicativo;<br>
-        Verificar sua identidade e evitar fraudes ou outra atividade que descuprem os termos de uso;
+        Verificar sua identidade e evitar fraudes ou outra atividade que descupram os Termos de Uso;
         Fazer melhorias no site e no aplicativo;<br>
         Corrigir problemas;<br>
         Desenvolver novos serviços e produtos para o site e aplicativo;<br>
         Comunicar-se com você;<br>
         Facilitar funcionalidades de compartilhamento social;<br>
-        Enviar informações administrativas a você, como termos, condições e políticas;<br>
+        Enviar informações administrativas a você, como Termos, Condições e Políticas;<br>
         Proteger a instituição e nossos usuários;<br>
         Viabilizar soluções de tecnologia da informação e publicidade online (notificações de push, retargeting, geolocalização, dentre outras);<br>
         Medir a audiência de nossas plataformas;<br>
@@ -67,7 +67,7 @@
     </div>
 
     <div class="Texto-Principal">
-      <p>2.1 O compartilhamento com terceiros</p>
+      <p>2.1. O compartilhamento com terceiros</p>
     </div>
 
     <div class="Texto-Conteudo">
@@ -88,16 +88,8 @@
     </div>
 
     <div class="Texto-Conteudo">
-      <p>Nós privamos pela segurança dos dados e informações dos usuários, bem como em oferecer um ambiente seguro em nosso site, mas não nos responsabilizamos por eventuais danos e/ou problemas decorrentes da demora, interrupção ou bloqueio nas transmissões de dados ocorridos na internet. não se responsabilizamos caso o equipamento do usuário esteja infectado com vírus e outras ameaças à sua segurança decorrentes da navegação realizada na internet.
+      <p>Nós privamos pela segurança dos dados e informações dos usuários, bem como em oferecer um ambiente seguro em nosso site, mas não nos responsabilizamos por eventuais danos e/ou problemas decorrentes da demora, interrupção ou bloqueio nas transmissões de dados ocorridos na internet. Não nos responsabilizamos caso o equipamento do usuário esteja infectado com vírus e outras ameaças à sua segurança decorrentes da navegação realizada na internet.
       </p>
-    </div>
-
-    <div class="Texto-Principal">
-      <p>5. Revisões em nossa Política de Privacidade</p>
-    </div>
-
-    <div class="Texto-Conteudo">
-      <p>A Equipe doa bem poderá mudar esta Política de Privacidade de tempos em tempos, publicando uma versão mais atualizada. Mas sempre o deixaremos informado. Você poderá saber quando foi a última revisão conferindo a data no final deste documento. E, em caso de mudanças significativas, enviaremos um aviso adicional, como uma declaração em nosso site ou uma notificação em nosso aplicativo.</p>
     </div>
 
     <div class="Texto-Updade">
@@ -112,10 +104,7 @@
 export default {
   name: 'Politica-Privacidade',
   data () {
-    return {
-      lorem: 'A Áhgil Soluções Tecnológicas, nasceu no início de 2020 inovando e desenvolvendo o maior site de doações do país, integrando pessoas físicas e empresas a beneficiários ajudando-os a receber suas doações de forma segura e rápida. Utilizando da expertise que temos em nossa equipe, resolvemos desenvolver a primeira plataforma composta de um web site de doações integrada a um aplicativo. O DoaBem é um produto para aproximar doadores a beneficiários.',
-      termo1: 'A Equipe Áhgil informa sobre que os Termos e Políticas aplicáveis ao serviço prestado são de única e exclusivamente utilizada para a plataforma e seus usuários. Além disso, alertamos que, ao utilizar o serviço, o usuário concorda expressamente com os termos dele.'
-    }
+    return {}
   }
 }
 </script>
