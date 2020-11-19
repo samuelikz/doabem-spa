@@ -10,6 +10,9 @@
       <div class="text-banner-sobre ">
         <p>Já somamos <br> mais de 200 voluntários</p>
       </div>
+      <div class="pesquisar-mapa">
+        <q-btn stretch flat label="Pesquisar Casos" icon="search"> </q-btn>
+      </div>
     </div>
 
     </q-img>
