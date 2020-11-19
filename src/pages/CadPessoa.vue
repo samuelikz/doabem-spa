@@ -3,16 +3,16 @@
     <div class="t-cadastro text-center text-h3">
       <p>Cadastro Pessoa Física</p>
     </div>
-    <formcardp />
+    <Formcardp />
   </q-page>
 </template>
 
 <script>
-import formcardp from 'components/formcardp.vue'
+import Formcardp from '../components/Formcardp'
 
 export default {
   name: 'Cadastro',
-  components: { formcardp },
+  components: { Formcardp },
   data () {
     return {}
   }
