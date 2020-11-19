@@ -10,7 +10,8 @@ const routes = [
       { path: 'cadpessoajuridica', component: () => import('pages/CadPesJur.vue') },
       { path: 'cadbeneficiario', component: () => import('pages/CadBeneficiario') },
       { path: 'Politica-de-Privacidade', component: () => import('pages/Politica-Privacidade.vue') },
-      { path: 'duvidas', component: () => import('pages/Duvidas.vue') }
+      { path: 'duvidas', component: () => import('pages/Duvidas.vue') },
+      { path: 'pesquisar', component: () => import('pages/Pesquisar.vue') }
     ]
   },
   {
