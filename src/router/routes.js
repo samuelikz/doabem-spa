@@ -8,7 +8,8 @@ const routes = [
       { path: 'sobre', component: () => import('pages/Sobre.vue') },
       { path: 'cadpessoa', component: () => import('pages/CadPessoa.vue') },
       { path: 'cadpessoajuridica', component: () => import('pages/CadPesJur.vue') },
-      { path: 'cadbeneficiario', component: () => import('pages/CadBeneficiario') }
+      { path: 'cadbeneficiario', component: () => import('pages/CadBeneficiario') },
+      { path: 'mapa', component: () => import('pages/Mapa.vue') }
     ]
   },
   {
