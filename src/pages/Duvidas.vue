@@ -9,7 +9,7 @@
     </div>
 
     <div class="Texto-Conteudo">
-      <p>{{ lorem }}</p>
+      <p>Descrinção</p>
     </div>
 
   </div>
@@ -20,9 +20,7 @@
 export default {
   name: 'Duvidas',
   data () {
-    return {
-      lorem: 'A Áhgil Soluções Tecnológicas, nasceu no início de 2020 inovando e desenvolvendo o maior site de doações do país, integrando pessoas físicas e empresas a beneficiários ajudando-os a receber suas doações de forma segura e rápida. Utilizando da expertise que temos em nossa equipe, resolvemos desenvolver a primeira plataforma composta de um web site de doações integrada a um aplicativo. O DoaBem é um produto para aproximar doadores a beneficiários.'
-    }
+    return {}
   }
 }
 </script>
