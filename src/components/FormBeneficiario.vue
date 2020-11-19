@@ -256,18 +256,32 @@
         <q-dialog v-model="alert">
           <q-card>
             <q-card-section>
-              <div class="text-h6">Termos de Uso</div>
+              <div class="text-h6">Termo de Uso e Condições</div>
             </q-card-section>
 
             <q-card-section class="q-pt-none">
-              <p class="text-h6">1.1 - Aceitação dos Termos e Políticas</p>
-              A Equipe Áhgil informa sobre que os Termos e Políticas aplicáveis ao serviço
-              prestado são de única e exclusivamente utilizada para a plataforma e seus usuários. Além disso, alertamos que, ao utilizar o serviço, o usuário concorda expressamente
-              com os termos dele.
-              <p class="text-h6">1.2 - Definições</p>
-              Consentimento, concordo que as informadas e inequívoca pela qual o
-              titular concorda com o tratamento de seus dados pessoais
-              para uma finalidade determinada.
+              <p class="text-h6"></p>
+              Bem-vindo. Ao utilizar nosso site e/ou aplicativo,
+              você estará concordando com nossos Termos de Uso,
+              por isso recomendamos que você leia atentamente nossos Termos e Condições.
+              <p class="text-h6">Condições para Aceitação</p>
+              Como condição de uso, você concorda em não usar o Serviço para qualquer finalidade que seja proibida pelos
+              Termos de Uso e que afirma ter mais de 18 anos, estando ciente que não deve fornecer informações falsa,
+              enganosa, ou inexata; e ilegal, ameaçadora, abusiva, ofensiva, difamatória, fraudulenta, invasiva da privacidade
+              de outrem, injuriosa, obscena, profana, ofensiva, ou; constituir publicidade não autorizada,
+              não solicitada ou "spam", qualquer descomprimento ou violação destes termos acarreterá em bloqueio
+              ou banimento de nossa plataforma, caso necessário.
+              <p class="text-h6">Garantias no uso e responsabilidades</p>
+              O usuário deste site e/ou aplicativo deve ler cuidadosamente estes Termos e Condições,
+              pois o seu uso importa em aceitação imediata das condições previstas neste documento –
+                e também das alterações futuras. Caso você não concorde com os termos atuais, deve descontinuar o uso do site.<br>
+              <p class="text-h6">Proteção à Privacidade</p>
+              A Doa Bem possui um documento que explica de forma detalhada como utilizamos os dados pessoais fornecidos,
+               e outras informações quando você utiliza nossa plataforma. Este documento se chama Política de Privacidade e pode ser consultado a qualquer momento.
+              <p class="text-h6">Modificação dos Termos de Uso</p>
+              A Doa Bem poderá rever, alterar e atualizar estes termos a qualquer momento, por interesse próprio, por conta de mudanças
+              ou alteração nos serviços que ela presta. Isso pode acontecer a qualquer tempo, por isso é importante que você consulte
+              este termo regularmente. Caso haja alguma alteração, a nossa equipe poderá enviar avisos dentro do site e/ou e-mail.
             </q-card-section>
 
             <q-card-actions align="right">
