@@ -19,7 +19,7 @@
           <li><p>Links uteis</p></li>
           <li><q-breadcrumbs-el label="Política de privacidade" to="politica-de-privacidade"/></li>
           <li><q-breadcrumbs-el label="Dúvidas frequentes" to="duvidas"/></li>
-          <li><q-breadcrumbs-el label="Fale conosco" to="#"/></li>
+          <li><q-breadcrumbs-el label="Fale conosco" to="fale-conosco"/></li>
         </q-list>
         </q-item>
 

@@ -11,7 +11,8 @@ const routes = [
       { path: 'cadbeneficiario', component: () => import('pages/CadBeneficiario') },
       { path: 'politica-de-privacidade', component: () => import('pages/Politica-Privacidade.vue') },
       { path: 'duvidas', component: () => import('pages/Duvidas.vue') },
-      { path: 'mapa', component: () => import('pages/Mapa.vue') }
+      { path: 'mapa', component: () => import('pages/Mapa.vue') },
+      { path: 'fale-conosco', component: () => import('pages/Fale-conosco.vue') }
     ]
   },
   {
