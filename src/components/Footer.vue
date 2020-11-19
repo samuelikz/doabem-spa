@@ -17,7 +17,7 @@
       <q-item>
         <q-list>
           <li><p>Links uteis</p></li>
-          <li><q-breadcrumbs-el label="Política de privacidade" to="Politica-de-Privacidade"/></li>
+          <li><q-breadcrumbs-el label="Política de privacidade" to="politica-de-privacidade"/></li>
           <li><q-breadcrumbs-el label="Dúvidas frequentes" to="duvidas"/></li>
           <li><q-breadcrumbs-el label="Fale conosco" to="#"/></li>
         </q-list>
