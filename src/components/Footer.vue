@@ -28,7 +28,7 @@
           <li><p>Contato</p></li>
           <li><q-breadcrumbs-el label="Empresa" to="#"/></li>
           <li><q-breadcrumbs-el label="Parceiros" to="#"/></li>
-          <li><q-breadcrumbs-el label="Atendimento" to="#"/></li>
+          <li><q-breadcrumbs-el label="Atendimento" to="fale-conosco"/></li>
         </q-list>
         </q-item>
     </q-item>

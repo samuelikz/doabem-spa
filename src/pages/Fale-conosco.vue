@@ -1,11 +1,16 @@
 <template>
   <q-page padding>
-    <!-- content -->
+    <div class="flex flex-center">
+      <Contato />
+    </div>
   </q-page>
 </template>
 
 <script>
+import Contato from '../components/Contato.vue'
+
 export default {
-  // name: 'PageName',
+  name: 'Fale-Conosco',
+  components: { Contato }
 }
 </script>

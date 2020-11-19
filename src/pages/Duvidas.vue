@@ -36,14 +36,13 @@ export default {
 
 <style lang="stylus" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .Titulo-Pagina{
-  color: $azulescuro;
-  font-family: Oswald;
-  font-style: normal;
+  color: #5CC6D0;
+  font-family: Montserrat;
   font-weight: bold;
-  font-size: 65px;
+  font-size: 36px;
   padding-bottom: 40px;
 }
 
