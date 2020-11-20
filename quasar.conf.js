@@ -119,8 +119,8 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'Doa bem utilizando o quasar.',
-        short_name: 'Doa bem utilizando o quasar.',
+        name: 'Doa bem',
+        short_name: 'Doa bem',
         description: 'Projeto Acadêmico FICR 2020.2',
         display: 'standalone',
         orientation: 'portrait',
