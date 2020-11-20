@@ -1,7 +1,10 @@
 <template>
  <q-page class="flex flex-center">
-<input type="text" placeholder="pesquisar casos....." class="matMenu">
+ <form action="">
+   <p>Pesquisar Casos</p>
+<input type="text" placeholder="encontrar um caso....." class="matMenu"><br>
 
+</form>
 </q-page>
 </template>
 
@@ -40,7 +43,7 @@ justify-content: center;
 align-items: center;
 }
 
-#q-app > div > div > main > input{
+#q-app > div > div > main > form > input{
 background: rgba(255, 255, 255, 0.86);
 border-radius: 40px;
 border: none;
@@ -49,7 +52,24 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align :center;
-width:50%;
+width:100%;
 
 }
+
+form{
+  text-align :center;
+}
+
+p{
+  text-align: center;
+    width: 100%;
+    margin: 20px 0 0;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
 </style>
