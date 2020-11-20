@@ -1,6 +1,6 @@
 <template>
  <q-page class="flex flex-center">
-<input type="text" placeholder="pesquisar casos.....">
+<input type="text" placeholder="pesquisar casos....." class="matMenu">
 
 </q-page>
 </template>
@@ -50,5 +50,6 @@ justify-content: center;
 align-items: center;
 text-align :center;
 width:50%;
+
 }
 </style>

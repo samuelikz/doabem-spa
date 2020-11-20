@@ -35,7 +35,7 @@
             </q-list>
           </q-btn-dropdown>
 
-          <q-btn stretch flat label="Pesquisar Casos" icon="search"> </q-btn>
+          <q-btn stretch flat label="Pesquisar Casos" icon="search" to="Pesquisar"> </q-btn>
           <q-list></q-list>
         </div>
           <q-btn outline round class="m-hamburgue" icon="menu" flat>
