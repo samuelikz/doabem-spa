@@ -3,12 +3,12 @@
 
     <q-img
       src="../assets/banner-parallax.jpg"
-      style="height: 400px; max-width: 100%"
+      style="height: 500px; max-width: 100%"
     >
 
     <div class="descricao-banner-mapa absolute-full flex flex-center">
       <div class="text-banner-mapa ">
-      <p>Saiba por onde começar</p>
+      <p class="headline">Pesquisar Casos</p>
         <div>
           <q-input class="configura-inpunt" rounded outlined label="Pesquisar" v-model="text">
             <template v-slot:append>
@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: 'HeaderMapa',
+  name: 'Pesquisar',
   data () {
     return {}
   }
@@ -53,6 +53,11 @@ export default {
 .configura-inpunt{
   background: rgba(255, 255, 255, 0.86);
   border-radius: 30px;
+}
+
+.headline{
+  color: white;
+  text-shadow: 2px 0 0 #000;
 }
 
 </style>

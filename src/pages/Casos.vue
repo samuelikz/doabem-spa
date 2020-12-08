@@ -59,7 +59,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
   /* Importante configuração grid */
 

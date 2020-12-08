@@ -11,7 +11,7 @@
 
         <div class="menu">
           <q-btn stretch flat label="Casos" to="casos" />
-          <q-btn stretch flat label="Mapa" />
+          <q-btn stretch flat label="Mapa" to="mapa"/>
           <q-btn stretch flat label="Login" to="/controle/login" />
 
           <q-btn-dropdown stretch flat label="Cadastro">
@@ -35,7 +35,7 @@
             </q-list>
           </q-btn-dropdown>
 
-          <q-btn stretch flat label="Pesquisar Casos" icon="search"> </q-btn>
+          <q-btn stretch flat label="Pesquisar Casos" icon="search" to="pesquisar"> </q-btn>
           <q-list></q-list>
         </div>
           <q-btn outline round class="m-hamburgue" icon="menu" flat>
@@ -48,7 +48,7 @@
                 </q-item>
                 <q-item clickable v-close-popup>
                   <q-item-section>
-                    <q-breadcrumbs-el label="Mapa" to="#"/>
+                    <q-breadcrumbs-el label="Mapa" to="mapa"/>
                   </q-item-section>
                 </q-item>
                 <q-separator />
@@ -62,7 +62,7 @@
                 </q-item>
                 <q-item clickable v-close-popup>
                   <q-item-section>
-                    <q-breadcrumbs-el label="Pesquisar" to="#"/>
+                    <q-breadcrumbs-el label="Pesquisar" to="pesquisar"/>
                   </q-item-section>
                 </q-item>
                 <q-separator />

@@ -12,7 +12,9 @@ const routes = [
       { path: 'politica-de-privacidade', component: () => import('pages/Politica-Privacidade.vue') },
       { path: 'duvidas', component: () => import('pages/Duvidas.vue') },
       { path: 'mapa', component: () => import('pages/Mapa.vue') },
-      { path: 'fale-conosco', component: () => import('pages/Fale-conosco.vue') }
+      { path: 'fale-conosco', component: () => import('pages/Fale-conosco.vue') },
+      { path: 'caso-id', component: () => import('pages/Caso-id.vue') },
+      { path: 'pesquisar', component: () => import('pages/Pesquisar.vue') }
     ]
   },
   {
