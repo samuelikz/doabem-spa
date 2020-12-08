@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-card class="my-card">
+    <q-card class="my-card flex flex-center">
       <q-img
         src="https://cdn.quasar.dev/img/parallax2.jpg"
         basic
@@ -13,6 +13,10 @@
       <q-card-section>
         {{ lorem }}
       </q-card-section>
+
+      <div class="q-pa-md">
+        <q-btn color="green" label="Doar" to="caso-id" />
+      </div>
     </q-card>
 
   </div>
