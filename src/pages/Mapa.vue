@@ -5,7 +5,7 @@
       <div class="header">
         <HeaderMapa/>
       </div>
-      <div>
+      <div class="q-pa-md">
         <Mapid/>
       </div>
     </div>

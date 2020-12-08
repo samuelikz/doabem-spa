@@ -9,6 +9,13 @@
     <div class="descricao-banner-mapa absolute-full flex flex-center">
       <div class="text-banner-mapa ">
       <p>Saiba por onde começar</p>
+        <div>
+          <q-input class="configura-inpunt" rounded outlined label="Pesquisar" v-model="text">
+            <template v-slot:append>
+              <q-icon name="search" />
+            </template>
+          </q-input>
+        </div>
       </div>
     </div>
 
@@ -41,6 +48,11 @@ export default {
 
 .q-img__content > div {
     background: rgba(0,0,0,0);
+}
+
+.configura-inpunt{
+  background-color: white;
+  border-radius: 30px;
 }
 
 </style>
