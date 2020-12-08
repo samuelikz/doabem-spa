@@ -5,16 +5,20 @@
       <div class="header">
         <HeaderMapa/>
       </div>
+      <div>
+        <Mapid/>
+      </div>
     </div>
   </q-page>
 </template>
 
 <script>
 import HeaderMapa from 'components/HeaderMapa.vue'
+import Mapid from '../components/Mapid'
 
 export default {
   name: 'Mapa',
-  components: { HeaderMapa },
+  components: { HeaderMapa, Mapid },
   data () {
     return {}
   }

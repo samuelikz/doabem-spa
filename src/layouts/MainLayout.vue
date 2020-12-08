@@ -11,7 +11,7 @@
 
         <div class="menu">
           <q-btn stretch flat label="Casos" to="casos" />
-          <q-btn stretch flat label="Mapa" />
+          <q-btn stretch flat label="Mapa" to="mapa"/>
           <q-btn stretch flat label="Login" to="/controle/login" />
 
           <q-btn-dropdown stretch flat label="Cadastro">
