@@ -15,3 +15,13 @@ export default {
   components: { FormBeneficiario }
 }
 </script>
+
+<style scoped>
+
+.t-cadastro{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: auto;
+}
+</style>
