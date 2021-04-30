@@ -109,6 +109,10 @@ export default {
   background: $cinza;
 }
 
+.q-btn:hover{
+  height: 50px;
+}
+
 @media only screen and (max-width: 660px) {
 .menu{
   display:none;
