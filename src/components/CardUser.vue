@@ -42,7 +42,7 @@ export default {
 <style lang="sass" scoped>
 .my-card
   width: 100%
-  max-width: 300px
+  max-width: 270px
   max-height: auto
 .q-img
  max-width: 400px
