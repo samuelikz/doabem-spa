@@ -2,7 +2,7 @@
   "name": "doabemqs",
   "version": "0.0.1",
   "description": "Projeto Acadêmico FICR 2020.2",
-  "productName": "Doa bem utilizando o quasar.",
+  "productName": "Doa bem",
   "author": "jpbatista <joao.batista@a.ficr.edu.br>",
   "private": true,
   "scripts": {

@@ -54,8 +54,9 @@ export default {
 
 <style lang="stylus" scoped>
   .q-card{
+    margin: 0;
     width: 100%;
-    height: 400px;
+    height: 475px;
   }
   .headline{
     color: green;
