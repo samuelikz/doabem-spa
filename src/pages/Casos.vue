@@ -4,7 +4,7 @@
       <div class="q-page-container">
         <div class="text-center"> <!-- Div para o titulo da pagina-->
           <p class="title-casos">Casos</p>
-          <p class="descricao-casos">Encontre Alguém e Faça o BEM!</p>
+          <p class="descricao-casos">Faça o Bem!</p>
         </div>
         <div class="row flex-center"> <!-- Div para os cards da pagina-->
           <div class="container-card">
@@ -66,7 +66,7 @@ export default {
   @media screen and (min-width: 900px) {
     .container-card {
       display: grid;
-      grid-template-columns: 250px 250px 250px;
+      grid-template-columns: 300px 300px 300px;
     }
   }
 
@@ -86,8 +86,7 @@ export default {
 
 .descricao-casos
   font-family: Roboto
-  font-style: normal
-  font-weight: bold
+  font-weight: normal
   font-size: 18px
   line-height: 25px
 

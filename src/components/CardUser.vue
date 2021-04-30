@@ -2,7 +2,7 @@
   <div>
     <q-card class="my-card flex flex-center">
       <q-img
-        src="https://cdn.quasar.dev/img/parallax2.jpg"
+        src="https://source.unsplash.com/random?1"
         basic
       >
         <div class="absolute-bottom text-h6">
@@ -42,5 +42,10 @@ export default {
 <style lang="sass" scoped>
 .my-card
   width: 100%
-  max-width: 250px
+  max-width: 300px
+  max-height: auto
+.q-img
+ max-width: 400px
+ max-height: 200px
+ min-height: 200px
 </style>
