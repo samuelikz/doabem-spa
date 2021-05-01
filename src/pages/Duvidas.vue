@@ -3,23 +3,23 @@
   <div class="Controle-conteudo">
 
     <div class="">
-      <div class="Titulo-Pagina text-center">Dúvidas frequentes</div>
+      <div class="Titulo-Pagina text-center">Dúvidas Frequentes</div>
 
-      <p class="Texto-Principal">Como realizar uma doação ?</p>
+      <p class="Texto-Principal">Como realizar uma doação?</p>
 
       <p class="Texto-Conteudo">Na página home você pode encontrar pedidos de ajuda, ou até mesmo ir para a página de casos.</p>
 
-      <p class="Texto-Principal">Posso realizar más de um pedido de ajuda ?</p>
+      <p class="Texto-Principal">Posso realizar mais de um pedido de ajuda?</p>
 
-      <p class="Texto-Conteudo">Cada Usuário poderá realizar uma solicitação de ajuda por conta, caso desejar realizar outro o mesmo deve encerrar o atual e abrir uma novamente.</p>
+      <p class="Texto-Conteudo">Cada usuário poderá realizar uma solicitação de ajuda por conta, caso deseje realizar outro o mesmo deve encerrar o atual e abrir uma novamente.</p>
 
-      <p class="Texto-Principal">Existe um tempo determinado para fechar um pedido de ajuda ?</p>
+      <p class="Texto-Principal">Existe um tempo determinado para fechar um pedido de ajuda?</p>
 
-      <p class="Texto-Conteudo">No momento o caso não tem limite de tempo para ficar no ar, porém quando a meta for alcançada o mesmo deverá encerrá-lo. </p>
+      <p class="Texto-Conteudo">No momento o caso não tem limite de tempo para ficar no ar, porém quando a meta for alcançada o mesmo deverá ser encerrado. </p>
 
-      <p class="Texto-Principal">Como me tornar um voluntário ?</p>
+      <p class="Texto-Principal">Como me tornar um voluntário?</p>
 
-      <p class="Texto-Conteudo">No momento não estamos com o serviço de voluntários aberto porém fique atento pois em breve estaremos com novos colaboradores nesta causa.</p>
+      <p class="Texto-Conteudo">No momento não estamos com o serviço de voluntários aberto, porém, fique atento pois em breve estaremos com novos colaboradores nesta causa.</p>
     </div>
   </div>
   </q-page>

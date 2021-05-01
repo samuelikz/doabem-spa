@@ -9,9 +9,6 @@
 <p align="left"> 💻🧑‍ DoaBem é uma plataforma para conectar doadores de bens, beneficiários e empresas, onde é possível pesquisar por localização e por casos, possibilitando que o beneficiário valide sua história por vídeo e que todos os usuários compartilhem-na.
 </p>
 
-<p align="justify">Os usuários terão acesso também ao aplicativo móvel, onde poderão ter mais comodidade para ter acesso ao conteúdo a qualquer momento.</p>
-<p align="justify">Projeto acadêmico desenvolvido no curso de Análise e Desenvolvimento de Sistemas e Sistemas para Internet na <a href="https://ficr.catolica.edu.br/portal/">Faculdade Imaculada Conceição do Recife - FICR</a>.</p>
-
 ## 🛠 Tecnologias
 
 Foram utilizadas as seguintes tecnologias no projeto:
@@ -57,32 +54,3 @@ Feito com ❤️ pela Equipe Áhgil👋🏽 Entre em contato!
     <td align="center"><a href="https://www.linkedin.com/in/samuel-nunes-057899133/"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/62406705?s=460&u=089c546d1e856e4628fd08cb6c5d41ac6034cf1b&v=4" width="100px;" alt=""/><br /><sub><b>Samuel Nunes</b></sub></a><br /></td>
   </tr>
 </table>
-
-
-
-# Doa bem utilizando o quasar. (doabemqs)
-
-Projeto Acadêmico FICR 2020.2
-
-## Install the dependencies
-```bash
-yarn
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-npx quasar dev
-```
-
-### Lint the files
-```bash
-yarn run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
