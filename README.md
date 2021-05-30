@@ -1,5 +1,9 @@
 <h1 align="center">
     <img alt="doabem" title="#Doa Bem" width="160px" height="160px" src="https://github.com/Equipe-Ahgil/Projeto-doa-bem/blob/master/imagens/doabem.png?raw=true" />
+  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7715fe97-ff80-49f5-8d76-96b2a048d231/deploy-status)](https://app.netlify.com/sites/doa-bem-project/deploys)
+    
+    
 </h1>
 
 <h1 align="center">Doa Bem</h1>
