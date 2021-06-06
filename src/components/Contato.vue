@@ -24,7 +24,7 @@
         icon="message"
         to="#"
       />
-      <p class="text-sel">Sugestões ?</p>
+      <p class="text-sel">Sugestões?</p>
       </div>
 
       <div class="sr">
@@ -35,7 +35,7 @@
         icon="help"
         to="duvidas"
       />
-      <p class="text-sel">Dúvidas frequentes</p>
+      <p class="text-sel">Dúvidas Frequentes</p>
     </div>
   </div>
 
