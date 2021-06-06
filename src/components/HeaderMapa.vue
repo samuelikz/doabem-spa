@@ -1,26 +1,23 @@
 <template>
   <div class="content-center">
-
     <q-img
       src="../assets/banner-parallax.jpg"
-      style="height: 400px; max-width: 100%"
+      style="height: 35rem; max-width: 100%"
     >
 
-    <div class="descricao-banner-mapa absolute-full flex flex-center">
-      <div class="text-banner-mapa ">
-      <p>Saiba por onde começar</p>
-        <div>
-          <q-input class="configura-inpunt" rounded outlined label="Pesquisar" v-model="text">
-            <template v-slot:append>
-              <q-icon name="search" />
-            </template>
-          </q-input>
+      <div class="descricao-banner-mapa absolute-full flex flex-center">
+        <div class="text-banner-mapa ">
+        <p>Saiba por onde começar</p>
+          <div>
+            <q-input class="configura-inpunt" rounded outlined label="Pesquisar" v-model="text">
+              <template v-slot:append>
+                <q-icon name="search" />
+              </template>
+            </q-input>
+          </div>
         </div>
       </div>
-    </div>
-
     </q-img>
-
   </div>
 </template>
 

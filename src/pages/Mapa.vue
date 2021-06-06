@@ -6,7 +6,7 @@
         <HeaderMapa/>
       </div>
       <div class="q-pa-md">
-        <Mapid/>
+        <Mapid class="flex flex-center"/>
       </div>
     </div>
   </q-page>

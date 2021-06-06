@@ -29,12 +29,13 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .text-sobre p {
-  color: $azulescuro;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 29px;
+  margin-top: 0
+  margin-bottom: 7rem
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  font-size: 3.5rem
+  font-weight: 300
+  color: #6c757d
+  line-height: 1.2
   }
 
 .text-descricao-sobre p {

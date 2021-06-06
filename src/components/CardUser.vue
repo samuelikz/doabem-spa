@@ -2,23 +2,20 @@
   <div>
     <q-card class="my-card flex flex-center">
       <q-img
-        src="https://source.unsplash.com/random?1"
+        :src="src"
         basic
       >
-        <div class="absolute-bottom text-h6">
-          {{ user.name }}
+        <div class="absolute-bottom text-h7 text-center">
+          {{ user.nome }}
         </div>
       </q-img>
 
-      <q-card-section>
-        {{ lorem }}
-      </q-card-section>
-
-      <div class="q-pa-md">
+      <q-card-section class="q-pa-md text-center">
+        <p>({{user.raca}})</p>
+        <p>{{ user.descrincao }}</p>
         <q-btn color="green" label="Doar" to="caso-id" />
-      </div>
+      </q-card-section>
     </q-card>
-
   </div>
 </template>
 
@@ -41,11 +38,17 @@ export default {
 
 <style lang="sass" scoped>
 .my-card
-  width: 100%
   max-width: 270px
-  max-height: auto
+  max-height: 450px
+  width: 100%
+  height: 100%
+
 .q-img
- max-width: 400px
+ max-width: 270px
  max-height: 200px
  min-height: 200px
+ min-width: 270px
+ width: 100%
+ height: 100%
+
 </style>

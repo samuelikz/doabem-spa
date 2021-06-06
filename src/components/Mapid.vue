@@ -1,5 +1,4 @@
 <template>
-  <q-page>
     <q-card style="flex flex-center">
         <l-map :zoom="zoom" :center="center">
             <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
@@ -7,23 +6,25 @@
                 <l-icon
                     :icon-anchor="staticAnchor"
                     class-name="someExtraClass">
-                    <div class="headline text-bold">
-                        <q-breadcrumbs-el to="casos">
+                    <div class="headline text-bold text-center">
+                        <q-breadcrumbs-el to="/">
+                          <p>
                             {{customText}}
                             <img src="../assets/local.png">
+                          </p>
                         </q-breadcrumbs-el>
                     </div>
                 </l-icon>
             </l-marker>
         </l-map>
     </q-card>
-  </q-page>
 </template>
 
 <script>
 import { LMap, LTileLayer, LMarker, LIcon } from 'vue2-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+
 export default {
   name: 'Map',
   components: {
@@ -34,18 +35,18 @@ export default {
   },
   data () {
     return {
-      zoom: 10,
-      center: L.latLng(-8.0429475, -35.0743063),
-      url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+      zoom: 16,
+      center: L.latLng(-8.0490003, -34.8772769),
+      url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-      marker: L.latLng(-8.0622251, -34.882365),
+      marker: L.latLng(-8.0490003, -34.8772769),
       icon: L.icon({
         iconUrl: '../assets/local.png',
         iconSize: [32, 37],
         iconAnchor: [16, 37]
       }),
       staticAnchor: [16, 37],
-      customText: 'Rodrigo',
+      customText: 'Doa Bem(Recife)',
       iconSize: 60
     }
   }

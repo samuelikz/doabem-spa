@@ -12,28 +12,7 @@
         <div class="menu">
           <q-btn stretch flat label="Casos" to="casos" />
           <q-btn stretch flat label="Mapa" to="mapa"/>
-          <q-btn stretch flat label="Login" to="/controle/login" />
-
-          <q-btn-dropdown stretch flat label="Cadastro">
-            <q-list>
-              <q-item clickable v-close-popup>
-                <q-item-section>
-                    <q-breadcrumbs-el to="cadpessoa" label="Pessoal Física" />
-                </q-item-section>
-              </q-item>
-              <q-item clickable v-close-popup>
-                <q-item-section>
-                    <q-breadcrumbs-el to="cadpessoajuridica" label="Pessoal Jurídica" />
-                </q-item-section>
-              </q-item>
-                <q-separator />
-              <q-item clickable v-close-popup>
-                <q-item-section>
-                    <q-breadcrumbs-el to="cadbeneficiario" label="Beneficiários" />
-                </q-item-section>
-              </q-item>
-            </q-list>
-          </q-btn-dropdown>
+          <q-btn stretch flat label="Entrar" to="/controle/login" />
 
           <q-btn stretch flat label="Pesquisar Casos" icon="search" to="pesquisar"> </q-btn>
           <q-list></q-list>
@@ -53,11 +32,8 @@
                 </q-item>
                 <q-separator />
                 <q-item clickable v-close-popup>
-                  <q-breadcrumbs-el label="Cadastrar" to="/controle/Selecao"/>
-                </q-item>
-                <q-item clickable v-close-popup>
                   <q-item-section>
-                    <q-breadcrumbs-el label="Login" to="/controle/login"/>
+                    <q-breadcrumbs-el label="Entrar" to="/controle/login"/>
                   </q-item-section>
                 </q-item>
                 <q-item clickable v-close-popup>

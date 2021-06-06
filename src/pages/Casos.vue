@@ -3,8 +3,7 @@
     <div>
       <div class="q-page-container">
         <div class="text-center"> <!-- Div para o titulo da pagina-->
-          <p class="title-casos">Casos</p>
-          <p class="descricao-casos">Faça o Bem!</p>
+          <p class="title-casos">#FaçaSuaParte</p>
         </div>
         <div class="row flex-center"> <!-- Div para os cards da pagina-->
           <div class="container-card">
@@ -25,29 +24,12 @@ export default {
   },
   data () {
     return {
-      users: [
-        {
-          id: 1
-          // name: 'Maria'
-        },
-        {
-          id: 2
-          // name: 'João'
-        },
-        {
-          id: 3
-          // name: 'Carlos'
-        },
-        {
-          id: 4
-          // name: 'Ana'
-        }
-      ]
+      users: []
     }
   },
   methods: {
     listUsers () {
-      this.$axios.get('https://jsonplaceholder.typicode.com/users').then(response => {
+      this.$axios.get('https://json-serverikz.herokuapp.com/pets').then(response => {
         this.users = response.data
       })
     }
@@ -75,23 +57,15 @@ export default {
 <style lang="sass" scoped>
 
 .title-casos
-  color: #5CC6D0
-  font-family: Montserrat
-  font-weight: bold
-  font-size: 36px
-  line-height: auto
+  margin-top: 0
+  margin-bottom: .7rem
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  font-size: 3.5rem
+  font-weight: 300
+  color: #6c757d
+  line-height: 1.2
 
 .card
   padding: 10px
-
-.descricao-casos
-  font-family: Roboto
-  font-weight: normal
-  font-size: 18px
-  line-height: 25px
-
-  text-align: center
-  letter-spacing: 0.18em
-  color: #14213D
 
 </style>

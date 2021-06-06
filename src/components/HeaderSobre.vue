@@ -29,10 +29,13 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .text-banner-sobre p {
-  color: white;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
+  margin-top: 0
+  margin-bottom: .7rem
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  font-size: 5.5rem
+  font-weight: 600
+  color: white
+  line-height: 1.2
   font-size: 54px;
   line-height: 85%;
   text-align: center;

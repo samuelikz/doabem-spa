@@ -39,11 +39,13 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .Titulo-Pagina{
-  color: #5CC6D0;
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 36px;
-  padding-bottom: 40px;
+  margin-top: 0
+  margin-bottom: 7rem
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  font-size: 3.5rem
+  font-weight: 300
+  color: #6c757d
+  line-height: 1.2
 }
 
 .Texto-Principal {

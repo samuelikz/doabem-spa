@@ -65,11 +65,13 @@ export default {
 }
 
 .text-h3{
-  color: #5CC6D0;
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 36px;
-  padding: 10px;
+  margin-top: 0
+  margin-bottom: .7rem
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  font-size: 3.5rem
+  font-weight: 300
+  color: #6c757d
+  line-height: 1.2
 }
 
 .sr{

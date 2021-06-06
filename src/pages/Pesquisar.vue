@@ -3,7 +3,7 @@
 
     <q-img
       src="../assets/banner-parallax.jpg"
-      style="height: 500px; max-width: 100%"
+      style="height: 35rem; max-width: 100%"
     >
 
     <div class="descricao-banner-mapa absolute-full flex flex-center">
@@ -42,7 +42,7 @@ export default {
   font-style: normal;
   font-weight: bold;
   font-size: 54px;
-  line-height: 85%;
+  line-height: 100%;
   text-align: center;
 }
 
